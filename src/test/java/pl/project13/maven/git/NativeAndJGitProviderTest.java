@@ -19,7 +19,7 @@ package pl.project13.maven.git;
 
 import static org.fest.assertions.Assertions.assertThat;
 import static org.junit.Assert.assertEquals;
-import static org.mockito.internal.util.reflection.Whitebox.setInternalState;
+import static pl.project13.internal.Whitebox.setInternalState;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

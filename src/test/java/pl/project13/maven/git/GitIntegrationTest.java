@@ -31,7 +31,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 
-import static org.mockito.internal.util.reflection.Whitebox.setInternalState;
+import static pl.project13.internal.Whitebox.setInternalState;
 
 public abstract class GitIntegrationTest {
 

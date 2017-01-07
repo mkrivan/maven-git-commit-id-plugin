@@ -25,7 +25,7 @@ import java.io.File;
 import java.util.Properties;
 
 import static org.fest.assertions.Assertions.assertThat;
-import static org.mockito.internal.util.reflection.Whitebox.setInternalState;
+import static pl.project13.internal.Whitebox.setInternalState;
 
 public class GitSubmodulesTest extends GitIntegrationTest {
 

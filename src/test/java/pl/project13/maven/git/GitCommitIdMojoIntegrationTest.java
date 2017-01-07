@@ -38,7 +38,7 @@ import java.util.*;
 import static java.util.Arrays.*;
 import static org.fest.assertions.Assertions.assertThat;
 import static org.fest.assertions.MapAssert.entry;
-import static org.mockito.internal.util.reflection.Whitebox.setInternalState;
+import static pl.project13.internal.Whitebox.setInternalState;
 
 @RunWith(JUnitParamsRunner.class)
 public class GitCommitIdMojoIntegrationTest extends GitIntegrationTest {
